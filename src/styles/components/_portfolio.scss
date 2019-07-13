@@ -1,0 +1,68 @@
+.portfolio-wrapper {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.portfolio-header {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.portfolio-item {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: $theme;
+}
+
+.portfolio-item h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.portfolio-item a {
+  text-decoration: none;
+  margin: 1rem;
+  color: white;
+}
+
+.portfolio-item a:hover {
+  color: teal;
+}
+
+.portfolio-item p {
+  margin-top: 1rem;
+}
+
+.img {
+  margin: 0 auto;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150px;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.sms-scheduler {
+  background-image: url('https://i.imgur.com/9WqpT50.png');
+}
+.movie-picker {
+  background-image: url('https://i.imgur.com/Su5qA02.png');
+}
+
+.tower-defense {
+  background-image: url('https://i.imgur.com/q9HMk6q.jpg');
+}
+.energy-shop {
+  background-image: url('https://i.imgur.com/YXBBMVD.png');
+}

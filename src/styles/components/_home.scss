@@ -1,0 +1,28 @@
+.home-wrapper {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 50%;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.home-wrapper h2 {
+  margin: 10px auto;
+}
+
+.home-wrapper p {
+  margin: 10px auto;
+}
+
+.home-wrapper li {
+  text-align: left;
+  list-style-position: inside;
+}
+
+.bullet-points {
+  margin-left: 40%;
+}
