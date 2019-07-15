@@ -1,11 +1,15 @@
 .navbar {
+  top: 0;
+  left: 0;
   width: 100%;
-  font-size: 25px;
+  font-size: 30px;
   justify-content: space-evenly;
   display: flex;
-  height: 50px;
+  flex-wrap: wrap;
+  height: auto;
   border-bottom: 1px solid;
-  padding-top: 25px;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
   background-color: $theme;
   color: white;
 }
@@ -21,7 +25,8 @@
 }
 
 .navbar a {
-  padding: 20px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   text-decoration: none;
   color: white;
 }
@@ -29,4 +34,5 @@
 .navbar a:hover {
   color: black;
   background: white;
+  border-radius: 0.1rem;
 }
