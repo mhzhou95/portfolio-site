@@ -7,7 +7,7 @@ const Portfolio = () => {
       <div className='portfolio-wrapper'>
         <div className='portfolio-item'>
           <h3>Bubbles App</h3>
-          <div className='img sms-scheduler' />
+          <div className='img bubbles-app' />
           <a href='https://shout-bubbles-app.herokuapp.com/'>
             <i className='fas fa-external-link-square-alt' /> Link
           </a>{' '}
@@ -15,7 +15,8 @@ const Portfolio = () => {
             <i className='fab fa-github-square' /> Github{' '}
           </a>
           <p>
-            Full Stack MERN application with login authentication and crud on bubbles
+            Full Stack MERN application with login authentication and crud on bubbles.
+            Express your thoughts by shouting it into this real time forum
           </p>
         </div>
         <div className='portfolio-item'>
