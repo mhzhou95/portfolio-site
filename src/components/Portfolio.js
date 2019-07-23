@@ -6,6 +6,19 @@ const Portfolio = () => {
       <h2 className='portfolio-header'>My Works</h2>
       <div className='portfolio-wrapper'>
         <div className='portfolio-item'>
+          <h3>Bubbles App</h3>
+          <div className='img sms-scheduler' />
+          <a href='https://shout-bubbles-app.herokuapp.com/'>
+            <i className='fas fa-external-link-square-alt' /> Link
+          </a>{' '}
+          <a href='https://github.com/mhzhou95/mern-stack-app'>
+            <i className='fab fa-github-square' /> Github{' '}
+          </a>
+          <p>
+            Full Stack MERN application with login authentication and crud on bubbles
+          </p>
+        </div>
+        <div className='portfolio-item'>
           <h3>SMS Scheduler</h3>
           <div className='img sms-scheduler' />
           <a href='https://sms-scheduler-mz.herokuapp.com/'>
