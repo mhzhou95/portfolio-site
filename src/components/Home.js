@@ -16,6 +16,9 @@ const Home = () => {
             <li>HTML5</li>
             <li>Ruby on Rails</li>
             <li>React</li>
+            <li>MongoDB</li>
+            <li>Node js</li>
+            <li>Express Server</li>
           </ul>
         </div>
       </p>
