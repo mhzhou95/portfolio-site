@@ -16,7 +16,7 @@ const Portfolio = () => {
           </a>
           <p>
             Full Stack MERN application with login authentication and crud on bubbles.
-            Express your thoughts by shouting it into this real time forum
+            Express your thoughts by shouting it into this real time forum.
           </p>
         </div>
         <div className='portfolio-item'>
