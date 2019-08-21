@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className='portfolio-item'>
           <h3>Bubbles App</h3>
           <div className='img bubbles-app' />
-          <a href='https://shout-bubbles-app.herokuapp.com/'>
+          <a href='https://shout-bubbles.herokuapp.com/'>
             <i className='fas fa-external-link-square-alt' /> Link
           </a>{' '}
           <a href='https://github.com/mhzhou95/mern-stack-app'>
