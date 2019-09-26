@@ -4,7 +4,22 @@ const Portfolio = () => {
   return (
     <div>
       <h2 className='portfolio-header'>My Works</h2>
+
       <div className='portfolio-wrapper'>
+        <div className='portfolio-item'>
+          <h3>Planning App</h3>
+          <div className='img plan-app' />
+          <a href='https://to-do-list-dc520.firebaseapp.com/'>
+            <i className='fas fa-external-link-square-alt' /> Link
+      </a>{' '}
+          <a href='https://github.com/mhzhou95/planner'>
+            <i className='fab fa-github-square' /> Github{' '}
+          </a>
+          <p>
+            Planning Application that explored firebase hosting and firestore real time database.
+            Use it to make plans with a friend group easier.
+      </p>
+        </div>
         <div className='portfolio-item'>
           <h3>Bubbles App</h3>
           <div className='img bubbles-app' />

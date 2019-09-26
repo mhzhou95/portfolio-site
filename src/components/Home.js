@@ -19,6 +19,7 @@ const Home = () => {
             <li>MongoDB</li>
             <li>Node js</li>
             <li>Express Server</li>
+            <li>Firebase</li>
           </ul>
         </div>
       </p>
